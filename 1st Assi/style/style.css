@@ -1,0 +1,33 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: greenyellow;
+  height: 70vh;
+  width: 50vw;
+  border: 5px solid brown;
+  box-shadow: 0px 0px 20px 10px rgba(200, 255, 0, 0.952);
+}
+
+.box {
+  background-color: rgb(70, 68, 68);
+  color: white;
+  border: 2px solid brown;
+  outline: 0;
+}
+.box:focus {
+  border: 1px dotted white;
+  box-shadow: 0px 0px 5px 1px red;
+}
+#data {
+  align-self: flex-start;
+}
